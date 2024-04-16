@@ -29,7 +29,6 @@ int main(int argc, char *argv[])
  //a linha abaixo limpa a tela
  system("cls");
  system("color 0F");
- printf("Massa de Manobra\n");
 
 
 
