@@ -1,14 +1,14 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-int numero;//essa vari·vel se tornou uma vari·vel global
+int numero;//essa vari√°vel se tornou uma vari√°vel global
 int main()
 {
     setlocale(LC_ALL, "portuguese");
     printf("Sistemas\n\n");
     printf("1-Windows\n");
     printf("2-Linux\n");
-    printf("\nEscolha a opÁ„o desejada\n");
+    printf("\nEscolha a op√ß√£o desejada\n");
     scanf("%d", &numero);
     switch(numero) //estrutura Switch case
     {
@@ -22,7 +22,7 @@ int main()
         break; //termina o case 2
 
     default:// para tudo que for diferente de case 1 e 2
-        printf("OpÁ„o inv·lida");
+        printf("Op√ß√£o inv√°lida");
     }
     return 0;
 }
