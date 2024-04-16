@@ -1,0 +1,38 @@
+
+//essas linhas "include" são as "Bibliotecas"
+//Bibliotecas são conjuntos de subprogramas que contém códigos, funções pré-definidas prontas para uso
+#include <stdio.h> // essa Biblioteca define entrada e saída
+#include <stdlib.h> // essa é uma Biblioteca de funções básicas do sistema
+/*comentário em bloco (não são processados) */
+//comentário em linha
+#include <locale.h> //biblioteca de idiomas (corrigir acentuação)
+int main(int argc, char *argv[])
+//main é o ponto de partida
+
+//argc se refere ao número de linhas do código
+//argv se refere ao conteúdo das linhas
+//char tipo de variável que aceita qualquer coisa
+{
+
+    //a linha abaixo configura o idioma
+    setlocale(LC_ALL,"Portuguese");
+    system("Color F0");//a linha abixo muda a cor do texto
+    //Código das cores: 0=preto,1=azul,2=verde,3=verde água,4=vermelho
+    //5=roxo,6=amarelo,7=branco,8=cinza,9=azul claro
+    //A=verde claro,B=verde-água claro,C=vermelho claro
+    //D=lilás,E=amarelo claro,F=branco brilhante
+
+
+     printf("OLÁ MUNDO!\n");
+ system("PAUSE");//O programa "espera" vc iniciar apertando uma tecla
+
+ //a linha abaixo limpa a tela
+ system("cls");
+ system("color 0F");
+ printf("Massa de Manobra\n");
+
+
+
+
+     return 0;//return 0 é uma função de retorno ligada ao main, o 0 significa que o aplicativo encerrou sem nenhum erro
+}
