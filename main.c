@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <stdlib.h>
+//char são caracteres (variáveis)armazenados em códigos asc
+int main(int argc, char *argv[])
+{
+    char nome[50];//delimita o tamanho máximo de caracteres que será aceito
+    int idade;
+
+    printf("Digite o seu nome\n");
+    gets(nome);
+    system("cls");
+    printf("Bem vindo %s\n",nome);//o %s se refere a variavel nome, o %s avisa a memória que o tipo de varável é caractere
+    system("Pause");
+
+    printf("Qual a sua idade?\n");
+    scanf("%d", &idade);//scanf é uma função para ler e guardar a memória numérica na variável idade
+    system ("cls");
+    printf("Boa Sorte, %s",nome);
+    printf(" de %d anos!",idade);
+
+    return 0;
+}
