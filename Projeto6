@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <locale.h>
-/* Funções com passagem de parâmetros e retorno
+/* FunÃ§Ãµes com passagem de parÃ¢metros e retorno
 calculadora
 */
 float Somar (float num1, float num2){
@@ -21,9 +21,9 @@ int main()
     int opcao;
     float num1,num2,resultado;
     printf("Calculadora\n");
-    printf("Digite o valor do primeiro número:");
+    printf("Digite o valor do primeiro nÃºmero:");
     scanf("%f",&num1);
-     printf("Digite o valor do segundo número:");
+     printf("Digite o valor do segundo nÃºmero:");
     scanf("%f",&num2);
     printf("---------------------------------\n");
     printf("1.Somar\n");
@@ -32,7 +32,7 @@ int main()
     printf("4.Dividir\n");
     printf("5.Porcentagem\n");
     printf("\n");
-    printf("Digite a opção desejada:\n");
+    printf("Digite a opÃ§Ã£o desejada:\n");
     scanf("%d",&opcao);
     switch(opcao)
     {
@@ -48,7 +48,7 @@ int main()
     case 4:
         if (num2==0)
         {
-            printf("Não é possível dividir por 0\n");
+            printf("NÃ£o Ã© possÃ­vel dividir por 0\n");
         }
         else
         {
@@ -59,7 +59,7 @@ int main()
         resultado = Porcentagem(num1, num2);
         break;
     default:
-        printf("Opção inválida\n");
+        printf("OpÃ§Ã£o invÃ¡lida\n");
         break;
         }
     printf("---------------------------------\n");
